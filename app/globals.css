@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Kalameh;
+  src: url("../app/assets/Kalameh-Regular.fe9383d.ttf");
+}
+
+@import "tailwindcss";
+@plugin "daisyui";
+
