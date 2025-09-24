@@ -1,23 +1,20 @@
-const Firstlayout = ({children}) => {
-    return ( 
 
 
-        <div style={{
-width:" vw-100",
-height:"vh-100"
+const Firstlayout = ({ children }) => {
+        return (
 
 
+                <div style={{
+                }} >
 
-        }} >
-
-{children}
+                        {children}
 
 
-        </div>
+                </div>
 
 
 
-     );
+        );
 }
- 
+
 export default Firstlayout;

@@ -6,3 +6,11 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@theme {
+  --breakpoint-xs: 18rem;
+}
+@layer scroll-webkit {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}

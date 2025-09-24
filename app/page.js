@@ -4,7 +4,7 @@ import Header from "./Components/Header/page";
 
 
 export default function Home() {
-  return (<section>
+  return (<section >
     <Header />
 
     <Firstpage />

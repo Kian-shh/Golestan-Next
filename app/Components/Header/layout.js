@@ -1,12 +1,17 @@
 const Headlayout = ({ children }) => {
-    return (<>
-        <div className="bg-amber-600">
-            {children}
-        </div>
+    return (<html>
+        <body className="">
+
+            <div className="">
+                {children}
+            </div>
+
+        </body>
+    </html>
 
 
 
-    </>);
+    );
 }
 
 export default Headlayout;

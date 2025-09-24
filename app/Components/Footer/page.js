@@ -136,9 +136,8 @@ const Footer = () => {
 
 
 
-
     return (<>
-        <div className="font-[Kalameh]">
+        <div className="font-[Kalameh] ">
             <div className="h-[100px] bg-red-500 ">
                 <div className=" h-[80%] bg-gray-200 text-neutral items-center flex gap-3 w-full p-[20px] justify-center">
                     <a href="" className="hover:bg-pink-500">آپارات</a>
@@ -154,15 +153,15 @@ const Footer = () => {
             </div>
 
 
-            <footer className="footer sm:footer-horizontal    p-10 ">
+            <footer className="footer  sm:footer-horizontal md:footer-vertical md:flex md:justify-center md:items-center    p-10 ">
                 <div className="w-[100%] h-auto">
 
-                    <div className=" flex justify-center w-[100%] items-baseline gap-5 ">
+                    <div className=" md:flex  md:justify-center w-[100%] md:items-baseline md:gap-5  ">
                         {footerobj?.map((items, index) => (
                             <div key={index}>
 
                                 <nav className="flex flex-col justify-center items-center" >
-                                    <Image src={items.image} alt="" className="w-full h-auto" />
+                                    <Image src={items.image} alt="" className="md:w-full md:h-auto" />
                                     <h1 className=" w-fit mb-4 text-center border-t-2 border-gray-400 border-b-2 p-2 ">{items.name}</h1>
                                     <div>
                                         {items.tea_items.map((item, i) => (
@@ -182,9 +181,9 @@ const Footer = () => {
                         ))}
 
                     </div>
-                    <div className="m-auto mt-20">
-                        <p>All Right Reserved Golestan Company 2022-2025</p>
-                        <p className="text-center">Design By: Golestan Studio</p>
+                    <div className="m-auto xs:w-full md:w-fit mt-20">
+                        <p className="w-[100%] pb-2 text-center">All Right Reserved Golestan Company 2022-2025</p>
+                        <p className="w-[100%] text-center">Design By: Golestan Studio</p>
                     </div>
 
 
