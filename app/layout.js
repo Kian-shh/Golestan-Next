@@ -1,8 +1,11 @@
 import "./globals.css";
-
 export const metadata = {
   title: "صفحه اصلی - وبسایت رسمی شرکت گلستان | golestan",
   description: "مصرف‌کنندگان محصولات گلستان همواره از این نام تجاری خاطره محصولاتی ممتاز و منحصر بفرد دارند و باtext-gray-400",
+  icons: {
+    icon: "../public/logo-fr.png"
+
+  }
 };
 
 export default function RootLayout({ children }) {

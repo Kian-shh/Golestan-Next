@@ -78,7 +78,7 @@ const Firstpage = () => {
                 <div className="   md:w-[80%] flex xs:flex-col xs:justify-center xs:w-[100%] xs:p-4 md:p-10 md:flex-row md:items-center md:justify-between ">
                     <div className=" flex flex-col  md:px-40 w-[100%] h-auto    ">
 
-                        <h1 className=" mt-9 xs:w-full    text-red-600 text-[32px]  text-right">قرعه‌کشی مصرف‌کنندگان گلستان</h1>
+                        <h1 className=" mt-9 xs:w-full    text-red-600 text-[32px]  text-right">قرعه‌کشی مصرف‌ کنندگان گلستان</h1>
 
                         <p className=" text-black mt-5 text-[22px] ">
                             قرعه‌کشی دوره‌ای مصرف‌کنندگان چای گلستان</p>

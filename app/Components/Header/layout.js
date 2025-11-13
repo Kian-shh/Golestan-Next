@@ -1,8 +1,8 @@
 const Headlayout = ({ children }) => {
     return (<html>
-        <body className="">
+        <body className="fixed">
 
-            <div className="">
+            <div className="fixed">
                 {children}
             </div>
 

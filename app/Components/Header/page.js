@@ -202,12 +202,12 @@ const Header = () => {
               </clipPath>
             </defs>
           </svg>
-          <div className={` xs:overflow-Scroll  ${openmenu ? "h-[100%] flex flex-col  w-[100%] " : "hidden "} transition-all duration-2000 `} >
+          <div className={`   ${openmenu ? "h-[100%] flex flex-col  w-[100%] " : "hidden "} transition-all duration-2000 `} >
             {headerobj?.map((item, index) => (
-              <div className={`group   w-full  px-5 py-3   `} key={index}>
+              <div className={`group w-full  h-[50%]  px-5 py-3   `} key={index}>
                 <Link className=" group-hover:text-white text-gray-400   w-full" href={"/"} onClick={() => dropdownClick("TWO", index)}>{item.name}</Link>
                 {/* <hr className=" transform rotate-90 w-[50px] -translate-x-17" /> */}
-                <div className={` ${active.category === "TWO" && active.index === index ? "overflow-y-auto max-h-screen scroll-webkit " : ""}  w-[100%] h-auto  group `}>
+                <div className={`  w-[100%] h-full overflow-y-scroll  group `}>
                   {item.dropdown && active.category === "TWO" && active.index === index && (
                     item.dropdown?.map((items, i) => (
                       <div key={i} className={` `}>
@@ -230,6 +230,9 @@ const Header = () => {
         </div>
 
       </div>
+
+
+      {/* Desktop Nav */}
       <div className=" md:-[80%] md:flex md:justify-between md:gap-x-48 relative xs:hidden  ">
         <div className="w-fit cursor-pointer">
 
